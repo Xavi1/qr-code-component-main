@@ -1,3 +1,20 @@
+
+
 body {
     background-color: hsl(212, 45%, 89%)
+}
+
+.white-box {
+    display: flex;
+    background-color: white;
+    display: block;
+}
+
+.qr {
+    border-radius: 25px;
+    background-color: black;
+}
+
+img {
+    border-radius: 3%;
 }
