@@ -8,6 +8,10 @@ body {
     display: flex;
     background-color: white;
     display: block;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    border-radius: 5%;
 }
 
 .qr {
