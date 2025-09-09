@@ -14,14 +14,15 @@ body {
     display: flex;
     background-color: white;
     display: block;
-    width: fit-content;
-    border-radius: 5%;
+    width: min-content;
+    border-radius: 0.6rem;
 }
 
 img {
     border-radius: 0.5rem;
     width: 180px;
     height: 180px;
+    margin: 0.5rem;
 }
 
 p {
