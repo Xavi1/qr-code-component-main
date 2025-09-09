@@ -1,13 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-* {
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
+} */
 
 body {
     background-color: hsl(212, 45%, 89%);
+}
+
+.white-box {
+    display: flex;
+    background-color: white;
+    display: block;
+    width: fit-content;
+    border-radius: 5%;
+}
+
+img {
+    border-radius: 0.5rem;
+    width: 180px;
+    height: 180px;
 }
 
 p {
@@ -21,26 +35,14 @@ p {
 }
 
 .p2 {
+    padding-top: 1rem;
     font-weight: 400;
+    color: hsl(216, 15%, 48%);
 }
 
-.white-box {
-    display: flex;
-    background-color: white;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    width: 25%;
-    border-radius: 5%;
-    position: absolute;
-}
 
-.qr {
-    border-radius: 25px;
-    background-color: black;
-    text-align: center;
-}
 
-img {
-    border-radius: 3%;
+
+.text {
+    padding: 1rem;
 }
