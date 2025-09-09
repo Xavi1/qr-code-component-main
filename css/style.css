@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* * {
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-} */
+}
 
 body {
     background-color: hsl(212, 45%, 89%);
@@ -39,11 +39,4 @@ p {
     padding-top: 1rem;
     font-weight: 400;
     color: hsl(216, 15%, 48%);
-}
-
-
-
-
-.text {
-    padding: 1rem;
 }
