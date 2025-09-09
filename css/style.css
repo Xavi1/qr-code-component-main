@@ -36,7 +36,8 @@ p {
 }
 
 .p2 {
-    padding-top: 1rem;
+    font-size: 10px;
     font-weight: 400;
     color: hsl(216, 15%, 48%);
+    padding: 1rem;
 }
