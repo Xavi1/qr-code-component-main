@@ -58,6 +58,10 @@ p {
     text-transform: none;
 }
 
-.attribution:hover {
-    
+.attribution a {
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    color: darkred;
 }
