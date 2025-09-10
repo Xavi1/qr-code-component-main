@@ -65,3 +65,22 @@ p {
 .attribution a:hover {
     color: darkred;
 }
+
+.small {
+    display: none;
+}
+
+@media (max-width: 320px) {
+  .white-box {
+    display: none;
+  }
+
+  .small {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
