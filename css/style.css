@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+
+
 body {
     background-color: hsl(212, 45%, 89%);
 }
@@ -45,4 +47,17 @@ p {
     color: hsl(216, 15%, 48%);
     padding: 1rem;
     padding-bottom: 2rem;
+}
+
+.attribution {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.attribution:hover {
+    
 }
